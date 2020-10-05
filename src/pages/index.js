@@ -2,7 +2,7 @@ import React from "react"
 import "../styles/styles.scss"
 
 // import components
-import Banner from "../components/banner"
+import Banner2 from "../components/banner2"
 import Navbar from "../components/navbar"
 import About from "../components/about"
 // import Projects from "../components/projects"
@@ -10,12 +10,10 @@ import About from "../components/about"
 
 const IndexPage = () => {
   return (
-    <div className="app">
-      <Banner />
-      <div className="container">
-        <Navbar />
-        <About />
-      </div>
+    <div className="container">
+      <Banner2 />
+      <Navbar />
+      <About />
     </div>
   )
 }

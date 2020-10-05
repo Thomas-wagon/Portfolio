@@ -33,7 +33,6 @@ const About = () => {
               <img src={Thomas} alt="my photo" />
             </div>
             <div className="text">
-              <h3>thomas viaules</h3>
               <p>
                 After 7 years working as an industrial designer, I wanted to
                 renew myself and start learning web development by following the
@@ -53,9 +52,15 @@ const About = () => {
               <h3>Languages and Frameworks</h3>
             </div>
             <div className="icons">
-              <img src={Ruby} alt="Ruby" />
-              <img src={Rails} alt="Rails" />
-              <img src={Gatsby} alt="Gatsby" />
+              <div className="icon">
+                <img src={Ruby} alt="Ruby" />
+              </div>
+              <div className="icon">
+                <img src={Rails} alt="Rails" />
+              </div>
+              <div className="icon">
+                <img src={Gatsby} alt="Gatsby" />
+              </div>
             </div>
           </div>
           <div className="frontend-tools">
@@ -63,12 +68,24 @@ const About = () => {
               <h3>Frontend tools</h3>
             </div>
             <div className="icons">
-              <img src={Html} alt="HTML 5" />
-              <img src={Css} alt="CSS 3" />
-              <img src={Sass} alt="SASS" />
-              <img src={Bootstrap} alt="Bootstrap" />
-              <img src={Figma} alt="Figma" />
-              <img src={Inkscape} alt="Inkscape" />
+              <div className="icon">
+                <img src={Html} alt="HTML 5" />
+              </div>
+              <div className="icon">
+                <img src={Css} alt="CSS 3" />
+              </div>
+              <div className="icon">
+                <img src={Sass} alt="SASS" />
+              </div>
+              <div className="icon">
+                <img src={Bootstrap} alt="Bootstrap" />
+              </div>
+              <div className="icon">
+                <img src={Figma} alt="Figma" />
+              </div>
+              <div className="icon">
+                <img src={Inkscape} alt="Inkscape" />
+              </div>
             </div>
           </div>
           <div className="backend-tools">
@@ -76,11 +93,21 @@ const About = () => {
               <h3>Backend tools</h3>
             </div>
             <div className="icons">
-              <img src={Git} alt="Git" />
-              <img src={Postgresql} alt="PostgreSQL" />
-              <img src={Cloudinary} alt="Cloudinary" />
-              <img src={Heroku} alt="Heroku" />
-              <img src={Netlify} alt="Netlify" />
+              <div className="icon">
+                <img src={Git} alt="Git" />
+              </div>
+              <div className="icon">
+                <img src={Postgresql} alt="PostgreSQL" />
+              </div>
+              <div className="icon">
+                <img src={Cloudinary} alt="Cloudinary" />
+              </div>
+              <div className="icon">
+                <img src={Heroku} alt="Heroku" />
+              </div>
+              <div className="icon">
+                <img src={Netlify} alt="Netlify" />
+              </div>
             </div>
           </div>
           <div className="cao-softwares">
@@ -88,10 +115,18 @@ const About = () => {
               <h3>CAO softwares</h3>
             </div>
             <div className="icons">
-              <img src={Creo} alt="PTC Creo" />
-              <img src={Solidworks} alt="SolidWorks" />
-              <img src={Autocad} alt="Autocad" />
-              <img src={Catia} alt="Catia" />
+              <div className="icon">
+                <img src={Creo} alt="PTC Creo" />
+              </div>
+              <div className="icon">
+                <img src={Solidworks} alt="SolidWorks" />
+              </div>
+              <div className="icon">
+                <img src={Autocad} alt="Autocad" />
+              </div>
+              <div className="icon">
+                <img src={Catia} alt="Catia" />
+              </div>
             </div>
           </div>
         </div>
