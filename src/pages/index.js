@@ -5,7 +5,7 @@ import "../styles/styles.scss"
 import Banner2 from "../components/banner2"
 import Navbar from "../components/navbar"
 import About from "../components/about"
-// import Projects from "../components/projects"
+import Projects from "../components/projects"
 // import Contact from "../components/contact"
 
 const IndexPage = () => {
@@ -14,6 +14,7 @@ const IndexPage = () => {
       <Banner2 />
       <Navbar />
       <About />
+      <Projects />
     </div>
   )
 }

@@ -30,7 +30,7 @@ const About = () => {
         <div className="profil">
           <div className="card">
             <div className="photo">
-              <img src={Thomas} alt="my photo" />
+              <img src={Thomas} alt="me" />
             </div>
             <div className="text">
               <p>
