@@ -11,6 +11,7 @@
       display: flex;
       justify-content: center;
       position: relative;
+      margin-top: 22.4px;
 
       .card {
         position: relative;
@@ -52,27 +53,31 @@
     .frontend-tools,
     .backend-tools,
     .cao-softwares {
+      position: relative;
+      background: #fff;
+      margin: 45px 10px 0 10px;
+
       .title {
         background: #2f2322;
         color: #f7f3eb;
         display: inline-block;
         padding: 10px 30px;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        position: relative;
+        top: -22.4px;
+        left: -22.4px;
+
         h3 {
           margin: 0;
         }
       }
 
       .icons {
-        background: white;
         display: flex;
         justify-content: space-around;
         align-items: flex-end;
         position: relative;
-        left: 40px;
-        top: -22px;
-        z-index: -1;
-        height: 110px;
+        height: 73.4px;
         .icon {
           height: 60px;
           width: 60px;

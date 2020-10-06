@@ -10,7 +10,7 @@ import Contact from "../components/contact"
 
 const IndexPage = () => {
   return (
-    <div className="container">
+    <div>
       <Banner2 />
       <Navbar />
       <About />
