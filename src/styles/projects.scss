@@ -2,103 +2,96 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 30px 0 60px 0;
 
-  .portfolio {
+  .card-left {
+    position: relative;
+    width: 680px;
+    max-height: 360px;
+    background: #fff;
+    margin: 30px 60px 30px 0;
+    padding: 30px 15px;
     display: flex;
+    transition: 0.3s ease-in-out;
 
-    .card {
+    .photo {
       position: relative;
-      width: 680px;
-      max-height: 360px;
-      background: #fff;
-      margin: 30px 60px 30px 0;
-      padding: 30px 15px;
-      display: flex;
-      transition: 0.3s ease-in-out;
+      width: 260px;
+      height: 360px;
+      left: -55px;
 
-      .photo {
-        position: relative;
-        width: 260px;
-        height: 360px;
-        left: -55px;
-
-        img {
-          max-height: 100%;
-          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-        }
-      }
-
-      .text {
-        position: relative;
-        width: 400px;
-        text-align: left;
-        color: #111;
-        margin-left: 310px;
-        visibility: hidden;
-        opacity: 0;
-        transition: 0.2s ease-in-out;
-        overflow: hidden;
+      img {
+        max-height: 100%;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
       }
     }
 
-    .card:hover {
-      width: 1070px;
-    }
-    .card:hover .text {
-      visibility: visible;
-      opacity: 1;
-      margin-left: 380px;
-      transition-delay: 0.2s;
+    .text {
+      position: relative;
+      width: 400px;
+      text-align: left;
+      color: #111;
+      margin-left: 310px;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+      overflow: hidden;
     }
   }
 
-  .yummy-palette {
+  .card-left:hover {
+    width: 1070px;
+  }
+  .card-left:hover .text {
+    visibility: visible;
+    opacity: 1;
+    margin-left: 380px;
+    transition-delay: 0.2s;
+  }
+
+  .card-right {
+    position: relative;
+    width: 680px;
+    max-height: 360px;
+    background: #fff;
+    margin: 30px 0 30px 60px;
+    padding: 30px 15px;
     display: flex;
+    justify-content: flex-end;
+    transition: 0.3s ease-in-out;
 
-    .card {
+    .photo {
       position: relative;
-      width: 680px;
-      max-height: 360px;
-      background: #fff;
-      margin: 30px 0 30px 60px;
-      padding: 30px 15px;
-      display: flex;
-      justify-content: flex-end;
-      transition: 0.3s ease-in-out;
+      width: 260px;
+      height: 360px;
+      right: 325px;
 
-      .photo {
-        position: relative;
-        width: 260px;
-        height: 360px;
-        right: 305px;
-
-        img {
-          max-height: 100%;
-          box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
-        }
-      }
-
-      .text {
-        position: relative;
-        width: 400px;
-        text-align: right;
-        color: #111;
-        margin-right: 310px;
-        visibility: hidden;
-        opacity: 0;
-        transition: 0.2s ease-in-out;
-        overflow: hidden;
+      img {
+        max-height: 100%;
+        box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
       }
     }
 
-    .card:hover {
-      width: 1070px;
+    .text {
+      position: relative;
+      width: 400px;
+      text-align: right;
+      color: #111;
+      margin-right: 310px;
+      visibility: hidden;
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+      overflow: hidden;
     }
-    .card:hover .text {
-      visibility: visible;
-      opacity: 1;
-      margin-right: 380px;
-      transition-delay: 0.2s;
-    }
+  }
+
+  .card-right:hover {
+    width: 1070px;
+  }
+  .card-right:hover .text {
+    visibility: visible;
+    opacity: 1;
+    margin-right: 380px;
+    transition-delay: 0.2s;
   }
 }
