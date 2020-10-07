@@ -9,7 +9,7 @@
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 
   .logo {
     margin-left: 30px;
@@ -41,21 +41,12 @@
     text-decoration: none;
     color: white;
     padding: 10px;
+
+    &:hover {
+      background-color: #f7f3eb;
+      color: #2f2322;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
   }
-
-  a:hover {
-    background-color: #f7f3eb;
-    color: #2f2322;
-    border-radius: 12px;
-    transition: 0.3s;
-  }
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-}
-
-.sticky + .content {
-  padding-top: 60px;
 }

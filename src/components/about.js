@@ -37,11 +37,14 @@ const About = () => {
                 After 7 years working as an industrial designer, I wanted to
                 renew myself and start learning web development by following the
                 full Stack Web Development training offered by LE WAGON
-                MONTREAL.(https://www.lewagon.com/en/montreal). Today, I'm
-                looking forward to find a position as web developer that allows
-                me, ideally, to combine my new skills with those I already
-                mastered in 3D modeling and product design, to make the most of
-                my creativity.
+                MONTREAL.
+              </p>
+              <p>(https://www.lewagon.com/en/montreal)</p>
+              <p>
+                Today, I'm looking forward to find a position as web developer
+                that allows me, ideally, to combine my new skills with those I
+                already mastered in 3D modeling and product design, to make the
+                most of my creativity.
               </p>
             </div>
           </div>
