@@ -12,37 +12,15 @@
     padding: 30px 15px;
     display: flex;
     transition: 0.3s ease-in-out;
-    @media (max-width: 992px) {
-      position: relative;
-      max-width: 667px;
-      height: 340px;
-      background: #fff;
-      margin: 70px 0;
-      padding: 15px 0;
-      display: flex;
-      flex-direction: column;
-      transition: 0.3s ease-in-out;
-    }
 
     .photo {
       position: relative;
       width: 24%;
       height: 330px;
       z-index: 1;
-      @media (max-width: 992px) {
-        position: relative;
-        height: 330px;
-        top: -55px;
-        left: 40px;
-        z-index: 1;
-      }
 
       img {
         max-height: 100%;
-        @media (max-width: 992px) {
-          max-height: 100%;
-          box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
-        }
       }
     }
 
@@ -54,73 +32,38 @@
       opacity: 0;
       transition: 0.2s ease-in-out;
       overflow: hidden;
-      @media (max-width: 992px) {
-        position: relative;
-        margin-top: -140px;
-        padding: 10px 15px;
-        text-align: center;
-        color: #111;
-        visibility: hidden;
-        opacity: 0;
-        transition: 0.2s ease-in-out;
-      }
     }
 
     &:hover {
       width: 1070px;
-      @media (max-width: 992px) {
-        height: 550px;
-      }
 
       .text {
         visibility: visible;
         opacity: 1;
         transition-delay: 0.3s;
-        @media (max-width: 992px) {
-          visibility: visible;
-          opacity: 1;
-          margin-top: -60px;
-          transition-delay: 0.3s;
-        }
       }
     }
   }
 
   .left {
     margin: 30px 60px 30px 0;
-    @media (max-width: 992px) {
-      margin: unset;
-    }
 
     .photo {
       left: -55px;
-      @media (max-width: 992px) {
-        left: unset;
-      }
 
       img {
         box-shadow: -5px 0 20px rgba(0, 0, 0, 0.5);
-        @media (max-width: 992px) {
-          box-shadow: unset;
-        }
       }
     }
 
     .text {
       text-align: left;
       margin-left: 200px;
-      @media (max-width: 992px) {
-        text-align: unset;
-        margin-left: unset;
-      }
     }
 
     &:hover {
       .text {
         margin-left: 315px;
-        @media (max-width: 992px) {
-          margin-left: unset;
-        }
       }
     }
   }
@@ -128,44 +71,25 @@
   .right {
     margin: 30px 0 30px 60px;
     flex-direction: row-reverse;
-    @media (max-width: 992px) {
-      margin: unset;
-      flex-direction: unset;
-    }
 
     .photo {
       left: 55px;
       display: flex;
       flex-direction: row-reverse;
-      @media (max-width: 992px) {
-        left: unset;
-        display: unset;
-        flex-direction: unset;
-      }
 
       img {
         box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
-        @media (max-width: 992px) {
-          box-shadow: unset;
-        }
       }
     }
 
     .text {
       text-align: right;
       margin-right: 200px;
-      @media (max-width: 992px) {
-        text-align: unset;
-        margin-right: unset;
-      }
     }
 
     &:hover {
       .text {
         margin-right: 315px;
-        @media (max-width: 992px) {
-          margin-right: unset;
-        }
       }
     }
   }
