@@ -24,7 +24,7 @@ import Catia from "../images/catia.png"
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <h2>About</h2>
       <div className="content">
         <div className="profil">

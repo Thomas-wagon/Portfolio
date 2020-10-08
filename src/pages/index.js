@@ -21,3 +21,14 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+// const Projects = () => {
+//   const projs = document.getElementsByClassName("selector")
+//   console.log(projs)
+//   // projs.classList.remove("card")
+
+//   // projs.addEventListener("resize", () => {
+//   //   if (window.innerWidth < 992) {
+//   //     projs.classList.remove("card")
+//   //   }
+//   // })

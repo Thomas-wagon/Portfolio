@@ -6,7 +6,7 @@ import Lake from "../images/lake.png"
 
 const Banner2 = () => {
   return (
-    <div className="banner2">
+    <div id="home" className="banner2">
       <img src={Lake} alt="lake" />
     </div>
   )

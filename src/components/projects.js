@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import "../styles/projects.scss"
 
 // import images and logo
@@ -6,10 +6,21 @@ import Portfolio from "../images/portfolio.jpg"
 import Yummy from "../images/yummy.jpg"
 
 const Projects = () => {
+  const [isMobile, setIsMobile] = useState("")
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      if (window.innerWidth < 992) {
+        setIsMobile(true)
+      } else {
+        setIsMobile(false)
+      }
+    })
+  }, [])
+
   return (
-    <div className="projects">
+    <div id="projects" className="projects">
       <h2>Projects</h2>
-      <div className="card left">
+      <div id="selector" className={isMobile ? "cardbottom" : "card left"}>
         <div className="photo">
           <img src={Portfolio} alt="My portfolio" />
         </div>
@@ -26,9 +37,12 @@ const Projects = () => {
             React and pluggins libraries, by regularly adding new effects and
             animations here and there.
           </p>
+          <a target="blank_" href="https://github.com/Thomas-wagon/Portfolio">
+            view source
+          </a>
         </div>
       </div>
-      <div className="card right">
+      <div id="selector" className={isMobile ? "cardbottom" : "card right"}>
         <div className="photo">
           <img src={Yummy} alt="Yummy Palette" />
         </div>
@@ -44,13 +58,24 @@ const Projects = () => {
             where you’ll be able to find and recommend only those places that
             offers authentic dishes.
           </p>
-          <p>see demo here</p>
+          <a target="blank_" href="https://youtu.be/_FQoOiv5nJM?t=1415">
+            see demo here
+          </a>
           <p>
             This MVP has been designed, implemented and shipped to production in
             10 days, using Ruby On Rails and MVC architecture (model, view,
             controller), as my final project for Le Wagon coding bootcamp
           </p>
-          <p>View site / View source</p>
+          <a target="blank_" href="https://www.yummypaletteapp.com/">
+            view site
+          </a>
+          <span className="link"> / </span>
+          <a
+            target="blank_"
+            href="https://github.com/jmh-xposures/Yummy_Palette"
+          >
+            view source
+          </a>
         </div>
       </div>
     </div>

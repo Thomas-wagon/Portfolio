@@ -8,18 +8,26 @@ import Linkedin from "../images/linkedin.png"
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <h2>Contact</h2>
       <div className="icons">
-        <div className="icon">
+        <a href="mailto:thomas.viaules@gmail.com" className="icon">
           <img src={Gmail} alt="Gmail" />
-        </div>
-        <div className="icon">
+        </a>
+        <a
+          target="blank_"
+          href="https://github.com/Thomas-wagon"
+          className="icon"
+        >
           <img src={Github} alt="Github" />
-        </div>
-        <div className="icon">
+        </a>
+        <a
+          target="blank_"
+          href="https://www.linkedin.com/in/thomas-viaules/"
+          className="icon"
+        >
           <img src={Linkedin} alt="Linkedin" />
-        </div>
+        </a>
       </div>
     </div>
   )

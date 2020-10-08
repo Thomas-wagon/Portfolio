@@ -17,53 +17,8 @@ body {
   margin: 0;
   padding: 0;
   background: $cream;
+  // scroll-behavior: smooth;
 }
-
-// .cardbottom {
-//     // position: relative;
-//     max-width: 667px;
-//     height: 340px;
-//     // background: #fff;
-//     margin: 70px 0;
-//     padding: 15px 0;
-//     // display: flex;
-//     flex-direction: column;
-//     // transition: 0.3s ease-in-out;
-
-//     .photobottom {
-//       position: relative;
-//       height: 330px;
-//       top: -55px;
-//       left: 40px;
-//       z-index: 1;
-
-//       img {
-//         max-height: 100%;
-//         box-shadow: 5px 0 20px rgba(0, 0, 0, 0.5);
-//       }
-//     }
-
-//     .textbottom {
-//       position: relative;
-//       margin-top: -140px;
-//       padding: 10px 15px;
-//       text-align: center;
-//       color: #111;
-//       visibility: hidden;
-//       opacity: 0;
-//       transition: 0.2s ease-in-out;
-//     }
-
-//     &:hover {
-//       height: 550px;
-//       .textbottom {
-//         visibility: visible;
-//         opacity: 1;
-//         margin-top: -60px;
-//         transition-delay: 0.3s;
-//       }
-//     }
-//   }
 
 // .app {
 //   perspective: 105px;
