@@ -1,6 +1,9 @@
 import React from "react"
 import "../styles/navbar.scss"
 
+// import components
+import Burger from "../components/burger"
+
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -23,6 +26,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      <Burger />
     </div>
   )
 }
