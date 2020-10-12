@@ -3,7 +3,7 @@ import "../styles/burger.scss"
 
 const Burger = () => {
   return (
-    <span class="burger">
+    <span className="burger">
       <i></i>
       <i></i>
       <i></i>
