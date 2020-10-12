@@ -100,31 +100,29 @@
 
   .cardbottom {
     position: relative;
-    max-width: 667px;
-    height: 340px;
+    width: 95%;
+    padding-bottom: 0;
     background: #fff;
     margin: 70px 0;
-    padding: 15px 0;
     display: flex;
     flex-direction: column;
-    transition: 0.3s ease-in-out;
+    align-items: center;
 
     .photo {
       position: relative;
-      height: 330px;
+      width: 90%;
       top: -55px;
-      left: 40px;
       z-index: 1;
 
       img {
-        max-height: 100%;
+        width: 100%;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
       }
     }
 
     .text {
-      position: relative;
-      margin-top: -140px;
+      position: absolute;
+      bottom: 100px;
       padding: 10px 15px;
       text-align: center;
       color: #111;
@@ -134,13 +132,22 @@
     }
 
     &:hover {
-      height: 550px;
       .text {
         visibility: visible;
         opacity: 1;
-        margin-top: -60px;
+        bottom: 0;
         transition-delay: 0.3s;
       }
+      &:after {
+        padding-top: 15%;
+      }
     }
+  }
+
+  .cardbottom:after {
+    content: "";
+    display: block;
+    padding-top: 0; /*What you want the height to be in relation to the width*/
+    transition: 0.3s ease-in-out;
   }
 }
