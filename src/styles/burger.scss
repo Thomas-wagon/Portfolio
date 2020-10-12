@@ -103,22 +103,7 @@
     }
   }
 
-  &:hover {
-    i:nth-child(1) {
-      -webkit-animation: inT 0.8s forwards;
-      animation: inT 0.8s forwards;
-    }
-
-    i:nth-child(2) {
-      -webkit-animation: inM 0.8s forwards;
-      animation: inM 0.8s forwards;
-    }
-
-    i:nth-child(3) {
-      -webkit-animation: inBtm 0.8s forwards;
-      animation: inBtm 0.8s forwards;
-    }
-  }
+  
 
   @-webkit-keyframes inM {
     50% {
@@ -185,6 +170,22 @@
       transform: translateY(-9px) rotate(135deg);
     }
   }
+}
+.open.navbar .burger {
+    i:nth-child(1) {
+      -webkit-animation: inT 0.8s forwards;
+      animation: inT 0.8s forwards;
+    }
+
+    i:nth-child(2) {
+      -webkit-animation: inM 0.8s forwards;
+      animation: inM 0.8s forwards;
+    }
+
+    i:nth-child(3) {
+      -webkit-animation: inBtm 0.8s forwards;
+      animation: inBtm 0.8s forwards;
+    }
 }
 
 @media (max-width: 992px) {
