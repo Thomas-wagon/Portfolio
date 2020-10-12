@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import "../styles/projects.scss"
 
 // import images and logo
@@ -6,24 +6,12 @@ import Portfolio from "../images/portfolio.jpg"
 import Yummy from "../images/yummy.jpg"
 
 const Projects = () => {
-  const [isMobile, setIsMobile] = useState("")
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      if (window.innerWidth < 992) {
-        setIsMobile(true)
-      } else {
-        setIsMobile(false)
-      }
-    })
-  }, [])
-
+  
   return (
     <div id="projects" className="projects">
       <h2>Projects</h2>
-      <div id="selector" className={isMobile ? "cardbottom" : "card left"}>
-        <div className="photo">
-          <img src={Portfolio} alt="My portfolio" />
-        </div>
+      <div id="selector" className="card left">
+        <img className="photo"src={Portfolio} alt="My portfolio" />
         <div className="text">
           <h3>
             My Portfolio - <span className="date">Septembre 2020</span>
@@ -42,10 +30,8 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div id="selector" className={isMobile ? "cardbottom" : "card right"}>
-        <div className="photo">
-          <img src={Yummy} alt="Yummy Palette" />
-        </div>
+      <div id="selector" className="card right">
+        <img className="photo" src={Yummy} alt="Yummy Palette" /> 
         <div className="text">
           <h3>
             Yummy Palette - <span className="date">July 2020</span>
