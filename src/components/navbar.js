@@ -2,9 +2,6 @@ import React, { useState } from "react"
 import "../styles/navbar.scss"
 import "../styles/burger.scss"
 
-// import components
-import Burger from "../components/burger"
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
