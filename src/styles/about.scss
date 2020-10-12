@@ -117,3 +117,25 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .about {
+    .content {
+      .profil {
+        .card {
+          height: 580px;
+          width: 300px;
+          .photo {
+            height: 275px;
+            top: -30px;
+            left: 20px;
+          }
+        }
+      }
+      .profil,
+      .tools {
+        margin: 0;
+      }
+    }
+  }
+}
