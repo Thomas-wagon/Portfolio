@@ -12,20 +12,22 @@ const Navbar = () => {
         <span className="viaules">viaules</span>
         <p>web developer</p>
       </div>
-      <ul>
-        <li>
-          <a href="#home">home</a>
-        </li>
-        <li>
-          <a href="#about">about</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+      <div className="list">
+        <ul>
+          <li>
+            <a href="#home">home</a>
+          </li>
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
       <Burger />
     </div>
   )
