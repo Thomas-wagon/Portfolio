@@ -17,31 +17,28 @@
       .card {
         position: relative;
         width: 360px;
-        height: 560px;
+        height: 480px;
         background: #fff;
         margin: 50px 10px 0 10px;
         display: flex;
         flex-direction: column;
+        padding: 40px 0;
 
         .photo {
           position: relative;
           width: 260px;
-          height: 260px;
-          top: -45px;
+          top: -85px;
           left: 50px;
-
-          img {
-            max-width: 100%;
-            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-          }
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
         }
 
         .text {
           position: relative;
           padding: 0 15px;
-          margin: 25px 0;
+          margin: -70px 0;
           text-align: center;
           color: #111;
+          box-sizing: border-box;
         }
       }
     }
@@ -123,13 +120,24 @@
     .content {
       .profil {
         .card {
-          height: 580px;
-          width: 300px;
+          height: inherit;
+          width: 95%;
+          max-height: 1000px;
+          padding-bottom: 70px;
           .photo {
-            height: 275px;
-            top: -30px;
-            left: 20px;
+            width: 60%;
+            left: unset;
+            margin-left: 20%;
           }
+        }
+      }
+
+      .tools {
+        .languages-and-frameworks,
+        .frontend-tools,
+        .backend-tools,
+        .cao-softwares {
+          width: 85%;
         }
       }
       .profil,

@@ -29,9 +29,7 @@ const About = () => {
       <div className="content">
         <div className="profil">
           <div className="card">
-            <div className="photo">
-              <img src={Thomas} alt="me" />
-            </div>
+            <img className="photo" src={Thomas} alt="me" />
             <div className="text">
               <p>
                 After 7 years working as an industrial designer, I wanted to

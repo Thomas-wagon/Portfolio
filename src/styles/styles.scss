@@ -22,60 +22,6 @@ body {
   }
 }
 
-// .cardbottom {
-//   position: relative;
-//   width: 95%;
-//   padding-bottom: 0;
-//   background: #fff;
-//   margin: 70px 0;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-
-//   .photo {
-//     position: relative;
-//     width: 90%;
-//     top: -55px;
-//     z-index: 1;
-
-//     img {
-//       width: 100%;
-//       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
-//     }
-//   }
-
-//   .text {
-//     position: absolute;
-//     width: 90%;
-//     top: 1%;
-//     padding: 10px 15px;
-//     text-align: center;
-//     color: #111;
-//     visibility: hidden;
-//     opacity: 0;
-//     transition: 0.2s ease-in-out;
-//   }
-
-//   &:hover {
-//     .text {
-//       visibility: visible;
-//       opacity: 1;
-//       top: 55%;
-//       transition-delay: 0.3s;
-//     }
-//     &:after {
-//       padding-top: 30%;
-//     }
-//   }
-// }
-
-// .cardbottom:after {
-//   content: "";
-//   display: block;
-//   padding-top: 0; /*What you want the height to be in relation to the width*/
-//   transition: 0.3s ease-in-out;
-// }
-
 // .app {
 //   perspective: 105px;
 //   background: linear-gradient(
