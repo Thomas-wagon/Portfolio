@@ -14,16 +14,44 @@ const Navbar = () => {
       <div className="list">
         <ul>
           <li>
-            <a href="#home" onClick={() => { setIsOpen(false)}}>home</a>
+            <a
+              href="#home"
+              onClick={() => {
+                setIsOpen(false)
+              }}
+            >
+              home
+            </a>
           </li>
           <li>
-            <a href="#about" onClick={() => { setIsOpen(false)}}>about</a>
+            <a
+              href="#about"
+              onClick={() => {
+                setIsOpen(false)
+              }}
+            >
+              about
+            </a>
           </li>
           <li>
-            <a href="#projects" onClick={() => { setIsOpen(false)}}>Projects</a>
+            <a
+              href="#projects"
+              onClick={() => {
+                setIsOpen(false)
+              }}
+            >
+              projects
+            </a>
           </li>
           <li>
-            <a href="#contact" onClick={() => { setIsOpen(false)}}>Contact</a>
+            <a
+              href="#contact"
+              onClick={() => {
+                setIsOpen(false)
+              }}
+            >
+              contact
+            </a>
           </li>
         </ul>
       </div>

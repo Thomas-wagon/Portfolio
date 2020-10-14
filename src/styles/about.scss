@@ -17,7 +17,7 @@
       .card {
         position: relative;
         width: 360px;
-        height: 480px;
+        height: 520px;
         background: #fff;
         margin: 50px 10px 0 10px;
         display: flex;
@@ -39,6 +39,10 @@
           text-align: center;
           color: #111;
           box-sizing: border-box;
+          a {
+            text-decoration: none;
+            color: #1f93b8;
+          }
         }
       }
     }
