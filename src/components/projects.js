@@ -6,16 +6,13 @@ import Portfolio from "../images/portfolio.jpg"
 import Yummy from "../images/yummy.jpg"
 
 const Projects = () => {
-  
   return (
     <div id="projects" className="projects">
       <h2>Projects</h2>
       <div id="selector" className="card left">
-        <img className="photo"src={Portfolio} alt="My portfolio" />
+        <img className="photo" src={Portfolio} alt="My portfolio" />
         <div className="text">
-          <h3>
-            My Portfolio - <span className="date">Septembre 2020</span>
-          </h3>
+          <h3>My Portfolio - Septembre 2020</h3>
           <p>
             I have designed my own portfolio on Figma, and built it as a single
             page application with the static-site generator Gatsby.
@@ -31,11 +28,9 @@ const Projects = () => {
         </div>
       </div>
       <div id="selector" className="card right">
-        <img className="photo" src={Yummy} alt="Yummy Palette" /> 
+        <img className="photo" src={Yummy} alt="Yummy Palette" />
         <div className="text">
-          <h3>
-            Yummy Palette - <span className="date">July 2020</span>
-          </h3>
+          <h3>Yummy Palette - July 2020</h3>
           <p>
             Are you looking for a restaurant which offers only authentic exotic
             dishes, faithful to the local cuisine ? you found this little place

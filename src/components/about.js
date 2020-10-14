@@ -37,7 +37,9 @@ const About = () => {
                 full Stack Web Development training offered by LE WAGON
                 MONTREAL.
               </p>
-              <p>(https://www.lewagon.com/en/montreal)</p>
+              <a target="blank_" href="https://www.lewagon.com/">
+                (www.lewagon.com)
+              </a>
               <p>
                 Today, I'm looking forward to find a position as web developer
                 that allows me, ideally, to combine my new skills with those I
