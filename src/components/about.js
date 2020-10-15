@@ -25,6 +25,7 @@ import Creo from "../images/creo.png"
 import Solidworks from "../images/solidworks.png"
 import Autocad from "../images/autocad.png"
 import Catia from "../images/catia.png"
+import Javascript from "../images/javascript.png"
 
 const About = () => {
   return (
@@ -57,6 +58,7 @@ const About = () => {
           <Tools_card toolType="Languages and Frameworks">
             <Tool_icon toolIcon={Ruby} toolName="Ruby" />
             <Tool_icon toolIcon={Rails} toolName="Rails" />
+            <Tool_icon toolIcon={Javascript} toolName="Javascript" />
             <Tool_icon toolIcon={Gatsby} toolName="Gatsby" />
           </Tools_card>
           <Tools_card toolType="Frontend tools">

@@ -16,6 +16,7 @@
 
       .card {
         position: relative;
+        min-width: 360px;
         width: 360px;
         height: 520px;
         background: #fff;
@@ -57,25 +58,17 @@
   .profil,
   .tools {
     flex: 1 1 0px;
-    margin: 0 40px;
+    margin: 0 30px;
   }
+}
 
-  // media queries
+// media queries
 
-  @media (max-width: 992px) {
-    .icons {
-      display: grid !important;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 16px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    .content {
-      flex-wrap: wrap;
-      .tools {
-        align-items: center;
-      }
+@media (max-width: 768px) {
+  .content {
+    flex-wrap: wrap;
+    .tools {
+      align-items: center;
     }
   }
 }
@@ -97,11 +90,6 @@
         }
       }
 
-      .tools {
-        .tool-type {
-          width: 85%;
-        }
-      }
       .profil,
       .tools {
         margin: 0;
