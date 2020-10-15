@@ -56,31 +56,55 @@ const About = () => {
         </div>
         <div className="tools">
           <Tools_card toolType="Languages and Frameworks">
-            <Tool_icon toolIcon={Ruby} toolName="Ruby" />
-            <Tool_icon toolIcon={Rails} toolName="Rails" />
-            <Tool_icon toolIcon={Javascript} toolName="Javascript" />
-            <Tool_icon toolIcon={Gatsby} toolName="Gatsby" />
+            <Tool_icon tooTIp="Ruby" toolIcon={Ruby} toolName="Ruby" />
+            <Tool_icon tooTIp="Rails" toolIcon={Rails} toolName="Rails" />
+            <Tool_icon
+              tooTIp="Javascript"
+              toolIcon={Javascript}
+              toolName="Javascript"
+            />
+            <Tool_icon tooTIp="Gatsby" toolIcon={Gatsby} toolName="Gatsby" />
           </Tools_card>
           <Tools_card toolType="Frontend tools">
-            <Tool_icon toolIcon={Html} toolName="HTML 5" />
-            <Tool_icon toolIcon={Css} toolName="CSS 3" />
-            <Tool_icon toolIcon={Sass} toolName="SASS" />
-            <Tool_icon toolIcon={Bootstrap} toolName="Bootstrap" />
-            <Tool_icon toolIcon={Figma} toolName="Figma" />
-            <Tool_icon toolIcon={Inkscape} toolName="Inkscape" />
+            <Tool_icon tooTIp="HTML 5" toolIcon={Html} toolName="HTML 5" />
+            <Tool_icon tooTIp="CSS 3" toolIcon={Css} toolName="CSS 3" />
+            <Tool_icon tooTIp="SASS" toolIcon={Sass} toolName="SASS" />
+            <Tool_icon
+              tooTIp="Bootstrap"
+              toolIcon={Bootstrap}
+              toolName="Bootstrap"
+            />
+            <Tool_icon tooTIp="Figma" toolIcon={Figma} toolName="Figma" />
+            <Tool_icon
+              tooTIp="Inkscape"
+              toolIcon={Inkscape}
+              toolName="Inkscape"
+            />
           </Tools_card>
           <Tools_card toolType="Backend tools">
-            <Tool_icon toolIcon={Git} toolName="Git" />
-            <Tool_icon toolIcon={Postgresql} toolName="Postgresql" />
-            <Tool_icon toolIcon={Cloudinary} toolName="Cloudinary" />
-            <Tool_icon toolIcon={Heroku} toolName="Heroku" />
-            <Tool_icon toolIcon={Netlify} toolName="Netlify" />
+            <Tool_icon tooTIp="Git" toolIcon={Git} toolName="Git" />
+            <Tool_icon
+              tooTIp="Postgresql"
+              toolIcon={Postgresql}
+              toolName="Postgresql"
+            />
+            <Tool_icon
+              tooTIp="Cloudinary"
+              toolIcon={Cloudinary}
+              toolName="Cloudinary"
+            />
+            <Tool_icon tooTIp="Heroku" toolIcon={Heroku} toolName="Heroku" />
+            <Tool_icon tooTIp="Netlify" toolIcon={Netlify} toolName="Netlify" />
           </Tools_card>
           <Tools_card toolType="CAO softwares">
-            <Tool_icon toolIcon={Creo} toolName="Creo" />
-            <Tool_icon toolIcon={Solidworks} toolName="Solidworks" />
-            <Tool_icon toolIcon={Autocad} toolName="Autocad" />
-            <Tool_icon toolIcon={Catia} toolName="Catia" />
+            <Tool_icon tooTIp="Creo" toolIcon={Creo} toolName="Creo" />
+            <Tool_icon
+              tooTIp="Solidworks"
+              toolIcon={Solidworks}
+              toolName="Solidworks"
+            />
+            <Tool_icon tooTIp="Autocad" toolIcon={Autocad} toolName="Autocad" />
+            <Tool_icon tooTIp="Catia" toolIcon={Catia} toolName="Catia" />
           </Tools_card>
         </div>
       </div>
