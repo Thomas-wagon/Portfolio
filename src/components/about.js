@@ -1,6 +1,10 @@
 import React from "react"
 import "../styles/about.scss"
 
+//import components
+import Tools_card from "../components/tools-card"
+import Tool_icon from "../components/tool-icon"
+
 // import images and logo
 import Thomas from "../images/thomas.jpg"
 import Ruby from "../images/ruby.png"
@@ -50,88 +54,32 @@ const About = () => {
           </div>
         </div>
         <div className="tools">
-          <div className="languages-and-frameworks">
-            <div className="title">
-              <h3>Languages and Frameworks</h3>
-            </div>
-            <div className="icons">
-              <div className="icon">
-                <img src={Ruby} alt="Ruby" />
-              </div>
-              <div className="icon">
-                <img src={Rails} alt="Rails" />
-              </div>
-              <div className="icon">
-                <img src={Gatsby} alt="Gatsby" />
-              </div>
-            </div>
-          </div>
-          <div className="frontend-tools">
-            <div className="title">
-              <h3>Frontend tools</h3>
-            </div>
-            <div className="icons">
-              <div className="icon">
-                <img src={Html} alt="HTML 5" />
-              </div>
-              <div className="icon">
-                <img src={Css} alt="CSS 3" />
-              </div>
-              <div className="icon">
-                <img src={Sass} alt="SASS" />
-              </div>
-              <div className="icon">
-                <img src={Bootstrap} alt="Bootstrap" />
-              </div>
-              <div className="icon">
-                <img src={Figma} alt="Figma" />
-              </div>
-              <div className="icon">
-                <img src={Inkscape} alt="Inkscape" />
-              </div>
-            </div>
-          </div>
-          <div className="backend-tools">
-            <div className="title">
-              <h3>Backend tools</h3>
-            </div>
-            <div className="icons">
-              <div className="icon">
-                <img src={Git} alt="Git" />
-              </div>
-              <div className="icon">
-                <img src={Postgresql} alt="PostgreSQL" />
-              </div>
-              <div className="icon">
-                <img src={Cloudinary} alt="Cloudinary" />
-              </div>
-              <div className="icon">
-                <img src={Heroku} alt="Heroku" />
-              </div>
-              <div className="icon">
-                <img src={Netlify} alt="Netlify" />
-              </div>
-            </div>
-          </div>
-          <div className="cao-softwares">
-            <div className="title">
-              <h3>CAO softwares</h3>
-            </div>
-            <div className="icons">
-              <div className="icon">
-                <img src={Creo} alt="PTC Creo" />
-              </div>
-              <div className="icon">
-                <img src={Solidworks} alt="SolidWorks" />
-              </div>
-              <div className="icon">
-                <img src={Autocad} alt="Autocad" />
-              </div>
-              <div className="icon">
-                <img src={Catia} alt="Catia" />
-              </div>
-            </div>
-          </div>
+          <Tools_card toolType="Languages and Frameworks">
+            <Tool_icon toolIcon={Ruby} toolName="Ruby" />
+            <Tool_icon toolIcon={Rails} toolName="Rails" />
+            <Tool_icon toolIcon={Gatsby} toolName="Gatsby" />
+          </Tools_card>
+          <Tools_card toolType="Frontend tools">
+            <Tool_icon toolIcon={Html} toolName="HTML 5" />
+            <Tool_icon toolIcon={Css} toolName="CSS 3" />
+            <Tool_icon toolIcon={Sass} toolName="SASS" />
+            <Tool_icon toolIcon={Bootstrap} toolName="Bootstrap" />
+            <Tool_icon toolIcon={Figma} toolName="Figma" />
+            <Tool_icon toolIcon={Inkscape} toolName="Inkscape" />
+          </Tools_card>
+          <Tools_card toolType="Backend tools">
+            <Tool_icon toolIcon={Git} toolName="Git" />
+            <Tool_icon toolIcon={Postgresql} toolName="Postgresql" />
+            <Tool_icon toolIcon={Cloudinary} toolName="Cloudinary" />
+            <Tool_icon toolIcon={Heroku} toolName="Heroku" />
+            <Tool_icon toolIcon={Netlify} toolName="Netlify" />
+          </Tools_card>
+          <Tools_card toolType="CAO softwares">
+            <Tool_icon toolIcon={Creo} toolName="Creo" />
+            <Tool_icon toolIcon={Solidworks} toolName="Solidworks" />
+            <Tool_icon toolIcon={Autocad} toolName="Autocad" />
+            <Tool_icon toolIcon={Catia} toolName="Catia" />
+          </Tools_card>
         </div>
       </div>
     </div>
