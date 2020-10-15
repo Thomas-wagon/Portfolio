@@ -1,11 +1,8 @@
 import React from "react"
-import "../styles/styles.scss"
-
-// import layers
-import Lake from "../images/lake.png"
+import "../styles/404.scss"
 
 const NotFoundPage = () => (
-  <div className="content">
+  <div className="not-found">
     <h1>Ooops!</h1>
     <h2>404 - PAGE NOT FOUND</h2>
     <p>
