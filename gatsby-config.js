@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Portfolio`,
-    description: `Welcome to my portfolio`,
+    title: `Thomas Viaules - Portfolio`,
+    description: `thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio`,
     author: `thomas viaules`,
   },
   plugins: [
@@ -18,9 +18,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Thomas Viaules Portfolio",
+        name: "Thomas Viaules - Portfolio",
         short_name: "thomas viaules",
-        description: `web development portfolio · Thomas is a web developer based in montreal`,
+        description: `thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio`,
         start_url: `/`,
         background_color: `#F7F3EB`,
         theme_color: `#F7F3EB`,

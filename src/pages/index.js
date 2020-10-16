@@ -15,16 +15,16 @@ import Oglake from "../images/og_lake.png"
 const IndexPage = () => {
   return (
     <div>
-      <Helmet htmlAttributes={{ lang: "en" }}>
+      <Helmet>
         <meta charSet="utf-8" />
-        <title>Thomas Viaules</title>
+        <title>Thomas Viaules - Portfolio</title>
         <link rel="canonical" href="https://www.thomasviaules.com/" />
         <meta property="og:title" content="Thomas Viaules - Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.thomasviaules.com/" />
         <meta
           property="og:description"
-          content="thomas viaules - web developer portfolio - thomas is a web developer based in montreal"
+          content="thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio"
         />
         <meta property="og:image" content={Oglake} />
       </Helmet>

@@ -1,7 +1,7 @@
 {
-  "name": "Portfolio",
+  "name": "Thomas Viaules - Portfolio",
   "private": true,
-  "description": "Welcome in my portfolio",
+  "description": "thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio",
   "version": "0.1.0",
   "author": "Thomas Viaules <thomas.viaules@gmail.com>",
   "dependencies": {
@@ -22,7 +22,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "prettier": "^2.1.2"
   },
   "keywords": [
     "gatsby"
