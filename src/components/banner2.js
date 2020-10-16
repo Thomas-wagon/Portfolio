@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/banner2.scss"
 
-// import layers
+// import images
 import Lake from "../images/lake.png"
 
 const Banner2 = () => {
