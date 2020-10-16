@@ -24,7 +24,7 @@ const IndexPage = () => {
         <meta property="og:url" content="https://www.thomasviaules.com/" />
         <meta
           property="og:description"
-          content="thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio"
+          content="thomas viaules - I'm a web developer based in Montreal, welcome to my portfolio"
         />
         <meta property="og:image" content={Oglake} />
       </Helmet>

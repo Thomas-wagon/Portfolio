@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Thomas Viaules - Portfolio`,
-    description: `thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio`,
+    description: `thomas viaules - I'm a web developer based in Montreal, welcome to my portfolio`,
     author: `thomas viaules`,
   },
   plugins: [
@@ -20,7 +20,7 @@ module.exports = {
       options: {
         name: "Thomas Viaules - Portfolio",
         short_name: "thomas viaules",
-        description: `thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio`,
+        description: `thomas viaules - I'm a web developer based in Montreal, welcome to my portfolio`,
         start_url: `/`,
         background_color: `#F7F3EB`,
         theme_color: `#F7F3EB`,

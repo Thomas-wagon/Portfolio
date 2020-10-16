@@ -1,7 +1,7 @@
 {
   "name": "Thomas Viaules - Portfolio",
   "private": true,
-  "description": "thomas viaules - I'm is a web developer based in Montreal, welcome to my portfolio",
+  "description": "thomas viaules - I'm a web developer based in Montreal, welcome to my portfolio",
   "version": "0.1.0",
   "author": "Thomas Viaules <thomas.viaules@gmail.com>",
   "dependencies": {
