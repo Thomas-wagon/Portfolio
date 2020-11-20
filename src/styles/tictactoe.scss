@@ -1,35 +1,46 @@
-.grille {
+.practices {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  height: 400px;
-  padding: 40px;
+  align-items: center;
 
-  table {
-    background: #1f93b8;
+  .score {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
 
-    tr {
-      flex-wrap: wrap;
-      display: flex;
+  .grille {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
 
-      td {
-        width: 100px;
+    table {
+      background: #1f93b8;
+
+      tr {
+        flex-wrap: wrap;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        margin: 1px;
-        background: white;
 
-        img {
-          position: absolute;
+        td {
+          width: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+          margin: 1px;
+          background: white;
+
+          img {
+            position: absolute;
+          }
         }
       }
     }
-  }
 
-  button {
-    margin-top: 40px;
+    button {
+      margin-top: 40px;
+    }
   }
 }
