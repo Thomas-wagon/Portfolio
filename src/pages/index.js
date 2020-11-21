@@ -8,7 +8,7 @@ import Navbar from "../components/navbar"
 import About from "../components/about"
 import Projects from "../components/projects"
 import Contact from "../components/contact"
-import Tictactoe from "../components/tictactoe/tictactoe"
+import Tictactoe from "../components/Tictactoe/Tictactoe"
 
 // import images
 import Oglake from "../images/og_lake.png"
