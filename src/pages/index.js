@@ -12,6 +12,7 @@ import Tictactoe from "../components/Tictactoe/Tictactoe"
 
 // import images
 import Oglake from "../images/og_lake.png"
+import Practices from "../components/Practices/Practices"
 
 const IndexPage = () => {
   return (
@@ -33,6 +34,7 @@ const IndexPage = () => {
       <Navbar />
       <About />
       <Projects />
+      <Practices />
       <Tictactoe />
       <Contact />
     </div>
