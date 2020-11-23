@@ -6,7 +6,7 @@ import "./Burger.scss"
 
 // component
 const Navbar = () => {
-  // component state
+  // original state
   const [isOpen, setIsOpen] = useState(false)
 
   //component return
