@@ -9,7 +9,7 @@ import PracticesCard from "./PracticesCard/PracticesCard"
 
 const Practices = () => {
   return (
-    <div className="practices">
+    <div id="practices" className="practices">
       <h2>React Practices</h2>
       <div className="content">
         <img src={ReactIcon} alt="React" />
