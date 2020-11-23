@@ -1,9 +1,9 @@
 import React from "react"
-import "../styles/projects.scss"
+import "./Projects.scss"
 
 // import images and logo
-import Portfolio from "../images/portfolio.jpg"
-import Yummy from "../images/yummy.jpg"
+import Portfolio from "../../images/portfolio.jpg"
+import Yummy from "../../images/yummy.jpg"
 
 const Projects = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react"
-import "../styles/tools-card.scss"
+import "./ToolsCard.scss"
 
-const Tools_card = props => {
+const ToolsCard = props => {
   return (
     <div className="tool-type">
       <div className="title">
@@ -12,4 +12,4 @@ const Tools_card = props => {
   )
 }
 
-export default Tools_card
+export default ToolsCard

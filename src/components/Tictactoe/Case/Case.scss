@@ -1,0 +1,14 @@
+.case {
+  width: 33.33%;
+  height: 33.33%;
+  border: black 2px solid;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  &.is-p1 {
+    background-image: url("../../../images/cross.svg");
+  }
+  &.is-p2 {
+    background-image: url("../../../images/circle.svg");
+  }
+}
