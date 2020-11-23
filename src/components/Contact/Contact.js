@@ -1,10 +1,10 @@
 import React from "react"
-import "../styles/contact.scss"
+import "./Contact.scss"
 
 //import image and icons
-import Gmail from "../images/gmail.png"
-import Github from "../images/github.png"
-import Linkedin from "../images/linkedin.png"
+import Gmail from "../../images/gmail.png"
+import Github from "../../images/github.png"
+import Linkedin from "../../images/linkedin.png"
 
 const Contact = () => {
   return (

@@ -3,11 +3,11 @@ import "../styles/styles.scss"
 import { Helmet } from "react-helmet"
 
 // import components
-import Banner2 from "../components/banner2"
-import Navbar from "../components/navbar"
-import About from "../components/about"
-import Projects from "../components/projects"
-import Contact from "../components/contact"
+import Banner from "../components/Banner/Banner"
+import Navbar from "../components/NavBar/Navbar"
+import About from "../components/About/About"
+import Projects from "../components/Projects/Projects"
+import Contact from "../components/Contact/Contact"
 import Tictactoe from "../components/Tictactoe/Tictactoe"
 
 // import images
@@ -29,7 +29,7 @@ const IndexPage = () => {
         />
         <meta property="og:image" content={Oglake} />
       </Helmet>
-      <Banner2 />
+      <Banner />
       <Navbar />
       <About />
       <Projects />

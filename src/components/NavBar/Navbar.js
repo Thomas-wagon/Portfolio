@@ -1,9 +1,15 @@
 import React, { useState } from "react"
-import "../styles/navbar.scss"
-import "../styles/burger.scss"
 
+// import styles
+import "./Navbar.scss"
+import "./Burger.scss"
+
+// component
 const Navbar = () => {
+  // component state
   const [isOpen, setIsOpen] = useState(false)
+
+  //component return
   return (
     <div className={`navbar ${isOpen ? "open" : ""}`}>
       <div className="logo">

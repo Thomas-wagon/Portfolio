@@ -1,5 +1,5 @@
 import React from "react"
-import "../styles/banner.scss"
+import "../styles/banner-paral.scss"
 
 // import layers
 import Layer1 from "../images/lake_layer_1.png"
@@ -11,7 +11,7 @@ import Layer6 from "../images/lake_layer_6.png"
 import Layer7 from "../images/lake_layer_7.png"
 import Layer8 from "../images/lake_layer_8.png"
 
-const Banner = () => {
+const BannerParal = () => {
   return (
     <>
       <div className="parallax_layer parallax_layer_1">
@@ -42,4 +42,4 @@ const Banner = () => {
   )
 }
 
-export default Banner
+export default BannerParal
