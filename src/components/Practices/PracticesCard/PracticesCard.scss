@@ -3,7 +3,7 @@
   background: #fff;
   margin: 45px 10px 0 10px;
   border-radius: 5px;
-  width: 68%;
+  width: 900px;
 
   .title {
     background: #2f2322;
@@ -43,5 +43,22 @@
         height: 30px;
       }
     }
+  }
+}
+
+// media queries
+@media (max-width: 992px) {
+  .practices-card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .practices-card {
+  }
+}
+
+@media (max-width: 576px) {
+  .practices-card {
   }
 }

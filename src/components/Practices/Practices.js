@@ -13,14 +13,16 @@ const Practices = () => {
       <h2>React Practices</h2>
       <div className="content">
         <img src={ReactIcon} alt="React" />
-        <h3>Introduction</h3>
-        <p>
-          As learning programming is a matter of practicing and exercicing, I’ll
-          use this section of my portfolio to expose all the little programs
-          I’ll code to practice my skills in React. They should be most of the
-          time interactives interfaces, that should pop up on your screen as
-          modal when you click on their “START !” button.
-        </p>
+        <div className="text">
+          <h3>Introduction</h3>
+          <p>
+            As learning programming is a matter of practicing and exercicing,
+            I’ll use this section of my portfolio to expose all the little
+            programs I’ll code to practice my skills in React. They should be
+            most of the time interactives interfaces, that should pop up on your
+            screen as modal when you click on their “START !” button.
+          </p>
+        </div>
       </div>
       <PracticesCard />
     </div>

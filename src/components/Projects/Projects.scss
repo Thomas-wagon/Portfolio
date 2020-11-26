@@ -100,7 +100,7 @@
       padding: 15px 0;
       flex-direction: column;
       height: inherit;
-      width: 622px;
+      width: 560px;
       max-height: 1000px;
 
       .photo {
@@ -139,13 +139,6 @@
 
       .photo {
         height: inherit;
-      }
-
-      &:hover {
-        width: 95%;
-        .text {
-          margin-top: -50px;
-        }
       }
     }
   }
