@@ -3,9 +3,12 @@ import React, { useState } from "react"
 // style
 import "./Tictactoe.scss"
 
+// import image
+import Grid from "../../../../images/grid.png"
+
 // components
-import Cross from "../../../../images/cross.svg"
-import Circle from "../../../../images/circle.svg"
+import Cross from "../../../../images/cross.png"
+import Circle from "../../../../images/circle.png"
 import Player from "./Player/Player"
 import Case from "./Case/Case"
 
@@ -164,7 +167,7 @@ const Tictactoe = props => {
   // render
   return (
     <div id="tictactoe" className="tictactoe">
-      <h2>React Practices</h2>
+      <h3>Tic Tac Toe</h3>
       <div className="score">
         {players.map(player => (
           <Player
@@ -174,11 +177,14 @@ const Tictactoe = props => {
           />
         ))}
       </div>
-      <div className="grille">
+      <div className="game">
         {game.winner === null ? (
-          cases.map(c => (
-            <Case lacase={c} onClick={() => clickCase(c.position)} />
-          ))
+          <div className="grid">
+            <img src={Grid} alt="tictactoe grid" />
+            {cases.map(c => (
+              <Case lacase={c} onClick={() => clickCase(c.position)} />
+            ))}
+          </div>
         ) : (
           <div className="result">
             <p>
