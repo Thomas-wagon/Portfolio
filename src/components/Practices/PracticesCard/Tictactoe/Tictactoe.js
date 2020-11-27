@@ -167,7 +167,7 @@ const Tictactoe = props => {
   // render
   return (
     <div id="tictactoe" className="tictactoe">
-      <h3>Tic Tac Toe</h3>
+      {/* <h3>Tic Tac Toe</h3> */}
       <div className="score">
         {players.map(player => (
           <Player

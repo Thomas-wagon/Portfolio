@@ -24,7 +24,11 @@ const Practices = () => {
           </p>
         </div>
       </div>
-      <PracticesCard />
+      <PracticesCard
+        title="Tic Tac Toe"
+        description="The player who succeeds in placing three of their marks in a
+            horizontal, vertical, or diagonal row is the winner"
+      ></PracticesCard>
     </div>
   )
 }
