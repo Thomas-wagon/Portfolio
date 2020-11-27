@@ -7,6 +7,7 @@ import "./Tictactoe.scss"
 import Grid from "../../../../images/grid.png"
 import Cross from "../../../../images/cross.png"
 import Circle from "../../../../images/circle.png"
+import Line from "../../../../images/line.png"
 
 // components
 import Player from "./Player/Player"
@@ -209,7 +210,7 @@ const Tictactoe = props => {
       <div className="game">
         <div className={`grid ${winClass}`}>
           <img src={Grid} alt="tictactoe grid" />
-          <img src={Cross} alt="cross" id="win-image" className={winClass} />
+          <img src={Line} alt="line" id="win-image" className={winClass} />
           {cases.map(c => (
             <Case lacase={c} onClick={() => clickCase(c.position)} />
           ))}
