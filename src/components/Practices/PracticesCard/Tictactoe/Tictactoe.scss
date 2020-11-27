@@ -23,6 +23,41 @@
         width: 100%;
         margin: 0;
         z-index: -1;
+        &#win-image {
+          display: none;
+          &.position_1 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_2 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_3 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_4 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_5 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_6 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_7 {
+            display: block;
+            transform: rotate(45deg);
+          }
+          &.position_8 {
+            display: block;
+            transform: rotate(45deg);
+          }
+        }
       }
     }
 
