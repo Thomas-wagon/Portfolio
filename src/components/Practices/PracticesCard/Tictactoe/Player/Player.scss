@@ -8,10 +8,13 @@
   }
   .identity {
     display: flex;
+    align-items: center;
 
     img {
-      width: 15px;
-      padding-right: 5px;
+      width: 30px;
+      padding-right: 10px;
+      object-fit: cover;
+      margin: inherit;
     }
   }
 }
