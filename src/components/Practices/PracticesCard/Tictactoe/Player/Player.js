@@ -10,7 +10,6 @@ const Player = ({ player, activePlayer, changed }) => {
       <input type="text" onChange={changed} value={player.name} />
       <div className="identity">
         <img src={player.sign} alt="sign" />
-        <p>{player.name}</p>
       </div>
       <p>score : {player.score}</p>
     </div>

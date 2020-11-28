@@ -3,16 +3,20 @@
   flex-direction: column;
   align-items: center;
 
-  .score {
+  .players {
     display: flex;
-    justify-content: space-around;
-    width: 300px;
+    .player {
+      .identity {
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 
   .game {
     display: flex;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     position: relative;
     .grid {
       width: 100%;
