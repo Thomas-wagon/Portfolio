@@ -218,10 +218,8 @@ const Tictactoe = props => {
           <div className="result">
             <p>
               {game.winner === 0
-                ? "Match null"
-                : `Le gagnant est : ${
-                    players[game.currentPlayer - 1].name
-                  }`}{" "}
+                ? "It's a draw !"
+                : `${players[game.currentPlayer - 1].name} wins !!!`}{" "}
             </p>
             <button onClick={resetGame}>Reset</button>
           </div>
