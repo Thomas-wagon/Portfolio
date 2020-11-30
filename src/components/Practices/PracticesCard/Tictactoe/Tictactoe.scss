@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
 
+  p {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 12px;
+  }
+
   .players {
     display: flex;
     .player {
@@ -30,6 +36,7 @@
         z-index: -1;
         &#win-image {
           display: none;
+          z-index: 1;
           &.position_1 {
             display: block;
             top: 52px;
@@ -81,6 +88,60 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+  }
+}
+
+//media queries
+@media (max-width: 576px) {
+  .tictactoe {
+    p {
+      font-size: 18px;
+    }
+
+    .players {
+      .player {
+        width: 120px;
+      }
+    }
+
+    .game {
+      width: 215px;
+      height: 215px;
+      .grid {
+        img {
+          &#win-image {
+            &.position_1 {
+              top: 32px;
+            }
+            &.position_2 {
+              top: 103px;
+            }
+            &.position_3 {
+              top: 174px;
+            }
+            &.position_4 {
+              top: 100px;
+              right: 74px;
+            }
+            &.position_5 {
+              top: 100px;
+            }
+            &.position_6 {
+              top: 100px;
+              left: 69px;
+            }
+            &.position_7 {
+              top: 98px;
+              left: -36px;
+            }
+            &.position_8 {
+              top: 98px;
+              left: -36px;
+            }
+          }
+        }
+      }
     }
   }
 }

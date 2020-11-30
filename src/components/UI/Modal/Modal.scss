@@ -31,3 +31,29 @@
     font-size: 1.17em;
   }
 }
+
+// media queries
+@media (max-width: 992px) {
+  .modal {
+    // width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    // width: 580px;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal {
+    width: 95%;
+    height: 520px;
+    left: unset;
+    top: 4%;
+
+    .closing-button {
+      width: 25px;
+    }
+  }
+}
