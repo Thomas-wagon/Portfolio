@@ -5,23 +5,48 @@ import "./Tictactoe.scss"
 
 // import image
 import Grid from "../../../../images/grid.png"
-
-// components
 import Cross from "../../../../images/cross.png"
 import Circle from "../../../../images/circle.png"
+import Line from "../../../../images/line.png"
+
+// components
 import Player from "./Player/Player"
 import Case from "./Case/Case"
 
 // variable
 const winnerCases = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
-  [1, 4, 7],
-  [2, 5, 8],
-  [3, 6, 9],
-  [1, 5, 9],
-  [3, 5, 7],
+  {
+    value: [1, 2, 3],
+    class: "position_1",
+  },
+  {
+    value: [4, 5, 6],
+    class: "position_2",
+  },
+  {
+    value: [7, 8, 9],
+    class: "position_3",
+  },
+  {
+    value: [1, 4, 7],
+    class: "position_4",
+  },
+  {
+    value: [2, 5, 8],
+    class: "position_5",
+  },
+  {
+    value: [3, 6, 9],
+    class: "position_6",
+  },
+  {
+    value: [1, 5, 9],
+    class: "position_7",
+  },
+  {
+    value: [3, 5, 7],
+    class: "position_8",
+  },
 ]
 
 const Tictactoe = props => {
@@ -72,6 +97,7 @@ const Tictactoe = props => {
     },
   ])
 
+  const [winClass, setWinClass] = useState("")
   // methodes
   // methode to change the name of the player when typing
   const nameChangedHandler = (event, id) => {
@@ -97,10 +123,13 @@ const Tictactoe = props => {
     let isWinner = false
     winnerCases.forEach(win => {
       let yes = true
-      win.forEach(w => {
+      win.value.forEach(w => {
         if (!casesPlayer.includes(w)) yes = false
       })
-      if (yes) isWinner = true
+      if (yes) {
+        isWinner = true
+        setWinClass(win.class)
+      }
     })
 
     if (isWinner) {
@@ -162,13 +191,13 @@ const Tictactoe = props => {
       },
     ])
     setGame({ currentPlayer: 1, winner: null })
+    setWinClass("")
   }
 
   // render
   return (
     <div id="tictactoe" className="tictactoe">
-      {/* <h3>Tic Tac Toe</h3> */}
-      <div className="score">
+      <div className="players">
         {players.map(player => (
           <Player
             player={player}
@@ -178,23 +207,21 @@ const Tictactoe = props => {
         ))}
       </div>
       <div className="game">
-        {game.winner === null ? (
-          <div className="grid">
-            <img src={Grid} alt="tictactoe grid" />
-            {cases.map(c => (
-              <Case lacase={c} onClick={() => clickCase(c.position)} />
-            ))}
-          </div>
-        ) : (
+        <div className={`grid ${winClass}`}>
+          <img src={Grid} alt="tictactoe grid" />
+          <img src={Line} alt="line" id="win-image" className={winClass} />
+          {cases.map(c => (
+            <Case lacase={c} onClick={() => clickCase(c.position)} />
+          ))}
+        </div>
+        {game.winner !== null && (
           <div className="result">
             <p>
               {game.winner === 0
-                ? "Match null"
-                : `Le gagnant est : ${
-                    players[game.currentPlayer - 1].name
-                  }`}{" "}
+                ? "It's a draw !"
+                : `${players[game.currentPlayer - 1].name} wins !!!`}{" "}
             </p>
-            <button onClick={resetGame}>Reset</button>
+            <button onClick={resetGame}>New Game</button>
           </div>
         )}
       </div>

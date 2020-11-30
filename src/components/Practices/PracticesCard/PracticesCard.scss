@@ -24,7 +24,7 @@
   .practices-card-content {
     display: flex;
     align-items: center;
-    img {
+    & > img {
       width: 160px;
       margin: -5px 15px 10px 15px;
     }
@@ -34,7 +34,7 @@
       align-items: flex-end;
       margin: 30px;
       button {
-        width: 60px;
+        width: fit-content;
         color: white;
         background-color: #05a5d1;
         border-radius: 5px;
