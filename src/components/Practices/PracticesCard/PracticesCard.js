@@ -30,7 +30,7 @@ const PracticesCard = props => {
             setShowModal={setShowModal}
             title={props.title}
           >
-            <TictactoeGame />
+            <TictactoeGame showModal={showModal} />
           </Modal>
           <button onClick={() => setShowModal(!showModal)}>Start !</button>
         </div>
