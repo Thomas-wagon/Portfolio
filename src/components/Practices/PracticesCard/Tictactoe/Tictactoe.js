@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 
 // style
 import "./Tictactoe.scss"
@@ -50,6 +50,7 @@ const winnerCases = [
 ]
 
 const Tictactoe = props => {
+  useEffect(() => resetGame(), [props.showModal])
   // original states
   const [players, setPlayers] = useState([
     { id: 1, name: "Player 1", sign: Cross, score: 0 },

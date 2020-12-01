@@ -2,11 +2,12 @@
   position: fixed;
   z-index: 500;
   background-color: white;
-  width: 70%;
+  width: 80%;
+  min-width: 315px;
   height: 660px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   padding: 16px;
-  left: 15%;
+  left: 10%;
   top: 10%;
   box-sizing: border-box;
   transform: translateY(-100vh);
@@ -33,18 +34,6 @@
 }
 
 // media queries
-@media (max-width: 992px) {
-  .modal {
-    // width: 700px;
-  }
-}
-
-@media (max-width: 768px) {
-  .modal {
-    // width: 580px;
-  }
-}
-
 @media (max-width: 576px) {
   .modal {
     width: 95%;

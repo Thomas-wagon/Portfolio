@@ -11,7 +11,9 @@ const Modal = props => {
         className="closing-button"
         src={ClosingButton}
         alt="close"
-        onClick={() => props.setShowModal(!props.showModal)}
+        onClick={() => {
+          props.setShowModal(!props.showModal)
+        }}
       />
       <h3>{props.title}</h3>
       {props.children}
