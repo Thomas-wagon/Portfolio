@@ -1,5 +1,7 @@
 import React from "react"
 import "./ToolIcon.scss"
+
+//import tippy pluggin & style
 import Tippy from "@tippyjs/react"
 import "tippy.js/dist/tippy.css"
 import "tippy.js/animations/scale.css"

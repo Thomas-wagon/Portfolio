@@ -1,0 +1,127 @@
+[
+  {
+    "section": "About",
+    "tools": [
+      {
+        "toolType": "Languages and Frameworks",
+        "toolList": [
+          {
+            "toolName": "Ruby",
+            "toolIcon": "Ruby",
+            "toolTip": "Ruby"
+          },
+          {
+            "toolName": "Rails",
+            "toolIcon": "Rails",
+            "toolTip": "Rails"
+          },
+          {
+            "toolName": "Javascript",
+            "toolIcon": "Javascript",
+            "toolTip": "Javascript"
+          },
+          {
+            "toolName": "React",
+            "toolIcon": "React",
+            "toolTip": "React"
+          },
+          {
+            "toolName": "Gatsby",
+            "toolIcon": "Gatsby",
+            "toolTip": "Gatsby"
+          }
+        ]
+      },
+      {
+        "toolType": "Frontend tools",
+        "toolList": [
+          {
+            "toolName": "HTML 5",
+            "toolIcon": "HTML 5",
+            "toolTip": "HTML 5"
+          },
+          {
+            "toolName": "CSS 3",
+            "toolIcon": "CSS 3",
+            "toolTip": "CSS 3"
+          },
+          {
+            "toolName": "SASS",
+            "toolIcon": "SASS",
+            "toolTip": "SASS"
+          },
+          {
+            "toolName": "Bootstrap",
+            "toolIcon": "Bootstrap",
+            "toolTip": "Bootstrap"
+          },
+          {
+            "toolName": "Figma",
+            "toolIcon": "Figma",
+            "toolTip": "Figma"
+          },
+          {
+            "toolName": "Inkscape",
+            "toolIcon": "Inkscape",
+            "toolTip": "Inkscape"
+          }
+        ]
+      },
+      {
+        "toolType": "Backend tools",
+        "toolList": [
+          {
+            "toolName": "Git",
+            "toolIcon": "Git",
+            "toolTip": "Git"
+          },
+          {
+            "toolName": "Postgresql",
+            "toolIcon": "Postgresql",
+            "toolTip": "Postgresql"
+          },
+          {
+            "toolName": "Cloudinary",
+            "toolIcon": "Cloudinary",
+            "toolTip": "Cloudinary"
+          },
+          {
+            "toolName": "Heroku",
+            "toolIcon": "Heroku",
+            "toolTip": "Heroku"
+          },
+          {
+            "toolName": "Netlify",
+            "toolIcon": "Netlify",
+            "toolTip": "Netlify"
+          }
+        ]
+      },
+      {
+        "toolType": "CAO softwares",
+        "toolList": [
+          {
+            "toolName": "Creo",
+            "toolIcon": "Creo",
+            "toolTip": "Creo"
+          },
+          {
+            "toolName": "Solidworks",
+            "toolIcon": "Solidworks",
+            "toolTip": "Solidworks"
+          },
+          {
+            "toolName": "Autocad",
+            "toolIcon": "Autocad",
+            "toolTip": "Autocad"
+          },
+          {
+            "toolName": "Catia",
+            "toolIcon": "Catia",
+            "toolTip": "Catia"
+          }
+        ]
+      }
+    ]
+  }
+]
