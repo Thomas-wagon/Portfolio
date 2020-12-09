@@ -1,4 +1,6 @@
 import React from "react"
+
+//import style
 import "./About.scss"
 
 //import data

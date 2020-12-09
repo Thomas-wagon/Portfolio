@@ -3,27 +3,22 @@
     "toolType": "Languages and Frameworks",
     "toolList": [
       {
-        "toolName": "Ruby",
         "toolIcon": "ruby.png",
         "toolTip": "Ruby"
       },
       {
-        "toolName": "Rails",
         "toolIcon": "rails.png",
         "toolTip": "Rails"
       },
       {
-        "toolName": "Javascript",
         "toolIcon": "javascript.png",
         "toolTip": "Javascript"
       },
       {
-        "toolName": "React",
         "toolIcon": "react.png",
         "toolTip": "React"
       },
       {
-        "toolName": "Gatsby",
         "toolIcon": "gatsby.png",
         "toolTip": "Gatsby"
       }
@@ -33,32 +28,26 @@
     "toolType": "Frontend tools",
     "toolList": [
       {
-        "toolName": "HTML 5",
         "toolIcon": "html.png",
         "toolTip": "HTML 5"
       },
       {
-        "toolName": "CSS 3",
         "toolIcon": "css.png",
         "toolTip": "CSS 3"
       },
       {
-        "toolName": "SASS",
         "toolIcon": "sass.png",
         "toolTip": "SASS"
       },
       {
-        "toolName": "Bootstrap",
         "toolIcon": "bootstrap.png",
         "toolTip": "Bootstrap"
       },
       {
-        "toolName": "Figma",
         "toolIcon": "figma.png",
         "toolTip": "Figma"
       },
       {
-        "toolName": "Inkscape",
         "toolIcon": "inkscape.png",
         "toolTip": "Inkscape"
       }
@@ -68,27 +57,22 @@
     "toolType": "Backend tools",
     "toolList": [
       {
-        "toolName": "Git",
         "toolIcon": "git.png",
         "toolTip": "Git"
       },
       {
-        "toolName": "Postgresql",
         "toolIcon": "postgresql.png",
         "toolTip": "Postgresql"
       },
       {
-        "toolName": "Cloudinary",
         "toolIcon": "cloudinary.png",
         "toolTip": "Cloudinary"
       },
       {
-        "toolName": "Heroku",
         "toolIcon": "heroku.png",
         "toolTip": "Heroku"
       },
       {
-        "toolName": "Netlify",
         "toolIcon": "netlify.png",
         "toolTip": "Netlify"
       }
@@ -98,22 +82,18 @@
     "toolType": "CAO softwares",
     "toolList": [
       {
-        "toolName": "Creo",
         "toolIcon": "creo.png",
         "toolTip": "Creo"
       },
       {
-        "toolName": "Solidworks",
         "toolIcon": "solidworks.png",
         "toolTip": "Solidworks"
       },
       {
-        "toolName": "Autocad",
         "toolIcon": "autocad.png",
         "toolTip": "Autocad"
       },
       {
-        "toolName": "Catia",
         "toolIcon": "catia.png",
         "toolTip": "Catia"
       }
