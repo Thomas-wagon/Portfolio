@@ -8,7 +8,6 @@ import Navbar from "../components/NavBar/Navbar"
 import About from "../components/About/About"
 import Projects from "../components/Projects/Projects"
 import Contact from "../components/Contact/Contact"
-import About2 from "../components/About/About2"
 
 // import images
 import Oglake from "../images/og_lake.png"
@@ -36,7 +35,6 @@ const IndexPage = () => {
       <Projects />
       <Practices />
       <Contact />
-      <About2 />
     </div>
   )
 }

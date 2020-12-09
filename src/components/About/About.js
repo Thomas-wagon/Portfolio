@@ -1,31 +1,15 @@
 import React from "react"
 import "./About.scss"
 
+//import data
+import AboutData from "./AboutData.json"
+
 //import components
 import ToolsCard from "./ToolCard/ToolsCard"
 import ToolIcon from "./ToolCard/ToolIcon/ToolIcon"
 
 // import images and logo
 import Thomas from "../../images/thomas.jpg"
-import Ruby from "../../images/ruby.png"
-import Rails from "../../images/rails.png"
-import Gatsby from "../../images/gatsby.png"
-import Html from "../../images/html.png"
-import Css from "../../images/css.png"
-import Sass from "../../images/sass.png"
-import Bootstrap from "../../images/bootstrap.png"
-import Figma from "../../images/figma.png"
-import Inkscape from "../../images/inkscape.png"
-import Git from "../../images/git.png"
-import Postgresql from "../../images/postgresql.png"
-import Cloudinary from "../../images/cloudinary.png"
-import Heroku from "../../images/heroku.png"
-import Netlify from "../../images/netlify.png"
-import Creo from "../../images/creo.png"
-import Solidworks from "../../images/solidworks.png"
-import Autocad from "../../images/autocad.png"
-import Catia from "../../images/catia.png"
-import Javascript from "../../images/javascript.png"
 
 const About = () => {
   return (
@@ -55,57 +39,15 @@ const About = () => {
           </div>
         </div>
         <div className="tools">
-          <ToolsCard toolType="Languages and Frameworks">
-            <ToolIcon tooTIp="Ruby" toolIcon={Ruby} toolName="Ruby" />
-            <ToolIcon tooTIp="Rails" toolIcon={Rails} toolName="Rails" />
-            <ToolIcon
-              tooTIp="Javascript"
-              toolIcon={Javascript}
-              toolName="Javascript"
-            />
-            <ToolIcon tooTIp="Gatsby" toolIcon={Gatsby} toolName="Gatsby" />
-          </ToolsCard>
-          <ToolsCard toolType="Frontend tools">
-            <ToolIcon tooTIp="HTML 5" toolIcon={Html} toolName="HTML 5" />
-            <ToolIcon tooTIp="CSS 3" toolIcon={Css} toolName="CSS 3" />
-            <ToolIcon tooTIp="SASS" toolIcon={Sass} toolName="SASS" />
-            <ToolIcon
-              tooTIp="Bootstrap"
-              toolIcon={Bootstrap}
-              toolName="Bootstrap"
-            />
-            <ToolIcon tooTIp="Figma" toolIcon={Figma} toolName="Figma" />
-            <ToolIcon
-              tooTIp="Inkscape"
-              toolIcon={Inkscape}
-              toolName="Inkscape"
-            />
-          </ToolsCard>
-          <ToolsCard toolType="Backend tools">
-            <ToolIcon tooTIp="Git" toolIcon={Git} toolName="Git" />
-            <ToolIcon
-              tooTIp="Postgresql"
-              toolIcon={Postgresql}
-              toolName="Postgresql"
-            />
-            <ToolIcon
-              tooTIp="Cloudinary"
-              toolIcon={Cloudinary}
-              toolName="Cloudinary"
-            />
-            <ToolIcon tooTIp="Heroku" toolIcon={Heroku} toolName="Heroku" />
-            <ToolIcon tooTIp="Netlify" toolIcon={Netlify} toolName="Netlify" />
-          </ToolsCard>
-          <ToolsCard toolType="CAO softwares">
-            <ToolIcon tooTIp="Creo" toolIcon={Creo} toolName="Creo" />
-            <ToolIcon
-              tooTIp="Solidworks"
-              toolIcon={Solidworks}
-              toolName="Solidworks"
-            />
-            <ToolIcon tooTIp="Autocad" toolIcon={Autocad} toolName="Autocad" />
-            <ToolIcon tooTIp="Catia" toolIcon={Catia} toolName="Catia" />
-          </ToolsCard>
+          {AboutData.map(data => {
+            return (
+              <ToolsCard toolType={data.toolType}>
+                {data.toolList.map(tool => (
+                  <ToolIcon toolTip={tool.toolTip} toolIcon={tool.toolIcon} />
+                ))}
+              </ToolsCard>
+            )
+          })}
         </div>
       </div>
     </div>

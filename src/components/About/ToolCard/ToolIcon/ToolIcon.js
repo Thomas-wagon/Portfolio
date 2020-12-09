@@ -8,10 +8,13 @@ import "tippy.js/animations/scale.css"
 
 const ToolIcon = props => {
   return (
-    <Tippy animation={"scale"} content={props.tooTIp} classname="tooltip">
-      <div className="icon">
-        <img src={props.toolIcon} alt={props.toolName} />
-      </div>
+    <Tippy animation={"scale"} content={props.toolTip} classname="tooltip">
+      <div
+        className="icon"
+        style={{
+          backgroundImage: `url('images/${props.toolIcon}')`,
+        }}
+      ></div>
     </Tippy>
   )
 }
