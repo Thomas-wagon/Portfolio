@@ -12,7 +12,7 @@ const ToolIcon = props => {
       <div
         className="icon"
         style={{
-          backgroundImage: `url('static/${props.toolIcon}')`,
+          backgroundImage: `url('images/${props.toolIcon}')`,
         }}
       ></div>
     </Tippy>
