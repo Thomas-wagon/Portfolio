@@ -37,16 +37,6 @@ const PracticesCard = props => {
           <button onClick={() => setShowModal(!showModal)}>Start !</button>
         </div>
       </div>
-      <div className="practices-card-content">
-        <img src={SmileyPuzzle} alt="sliding puzzle" />
-        <div className="practices-card-description">
-          <p>{props.description}</p>
-          <Modal>
-            <SlidingPuzzle />
-          </Modal>
-          <button onClick={() => setShowModal(!showModal)}>Start !</button>
-        </div>
-      </div>
     </div>
   )
 }
