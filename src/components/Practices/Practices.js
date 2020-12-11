@@ -3,6 +3,9 @@ import React from "react"
 //import style
 import "./Practices.scss"
 
+//import data
+import PracticesData from "./PracticesData.json"
+
 //import image
 import ReactIcon from "../../images/react_no_bg.png"
 import PracticesCard from "./PracticesCard/PracticesCard"
@@ -25,9 +28,8 @@ const Practices = () => {
         </div>
       </div>
       <PracticesCard
-        title="Tic Tac Toe"
-        description="The player who succeeds in placing three of their marks in a
-            horizontal, vertical, or diagonal row is the winner"
+        title={PracticesData[0].title}
+        description={PracticesData[0].description}
       ></PracticesCard>
     </div>
   )
