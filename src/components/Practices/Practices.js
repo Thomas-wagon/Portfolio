@@ -15,7 +15,7 @@ import ReactIcon from "../../images/react_no_bg.png"
 import PracticesCard from "./PracticesCard/PracticesCard"
 import PracticesCard2 from "./PracticesCard/PracticesCard2"
 
-const Practices = props => {
+const Practices = () => {
   //original state
   const [showModal, setShowModal] = useState(false)
 
