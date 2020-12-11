@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 
 //import style
 import "./Practices.scss"
@@ -6,11 +6,19 @@ import "./Practices.scss"
 //import data
 import PracticesData from "./PracticesData.json"
 
+// import components
+import Modal from "../../components/UI/Modal/Modal"
+import TictactoeGame from "../Practices/PracticesCard/Tictactoe/Tictactoe"
+
 //import image
 import ReactIcon from "../../images/react_no_bg.png"
 import PracticesCard from "./PracticesCard/PracticesCard"
+import PracticesCard2 from "./PracticesCard/PracticesCard2"
 
-const Practices = () => {
+const Practices = props => {
+  //original state
+  const [showModal, setShowModal] = useState(false)
+
   return (
     <div id="practices" className="practices">
       <h2>React Practices</h2>
@@ -31,6 +39,18 @@ const Practices = () => {
         title={PracticesData[0].title}
         description={PracticesData[0].description}
       ></PracticesCard>
+      <PracticesCard2
+        title={PracticesData[1].title}
+        description={PracticesData[1].description}
+      >
+        <Modal
+          showModal={showModal}
+          setShowModal={setShowModal}
+          title={PracticesData[0].title}
+        >
+          <TictactoeGame showModal={showModal} />
+        </Modal>
+      </PracticesCard2>
     </div>
   )
 }

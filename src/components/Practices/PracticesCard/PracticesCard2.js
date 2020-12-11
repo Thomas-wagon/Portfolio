@@ -3,6 +3,13 @@ import React, { useState } from "react"
 //import style
 import "./PracticesCard2.scss"
 
+// import components
+import Modal from "../../UI/Modal/Modal"
+import SlidingPuzzle from "../PracticesCard/SlidingPuzzle/SlidingPuzzle"
+
+//import image
+import SmileyPuzzle from "../../../images/smiley_puzzle.png"
+
 const PracticesCard2 = props => {
   //original state
   const [showModal, setShowModal] = useState(false)
@@ -13,27 +20,18 @@ const PracticesCard2 = props => {
         <h3>{props.title}</h3>
       </div>
       <div className="practices-card-content">
-        <div
-          className="image"
-          style={{
-            backgroundImage: `url('images/${props.image}')`,
-          }}
-        ></div>
+        <img src={SmileyPuzzle} alt="Smiley Puzzle" />
         <div className="practices-card-description">
           <p>{props.description}</p>
-          {props.children}
-          <button onClick={() => setShowModal(!showModal)}>Start !</button>
-        </div>
-      </div>
-      <div className="practices-card-content">
-        <img src={SmileyPuzzle} alt="sliding puzzle" />
-        <div className="practices-card-description">
-          <p>{props.description}</p>
-          <Modal>
-            <SlidingPuzzle />
+          <Modal
+            showModal={showModal}
+            setShowModal={setShowModal}
+            title={props.title}
+          >
+            <SlidingPuzzle showModal={showModal} />
           </Modal>
-          <button onClick={() => setShowModal(!showModal)}>Start !</button>
         </div>
+        <button onClick={() => setShowModal(!showModal)}>Start !</button>
       </div>
     </div>
   )
