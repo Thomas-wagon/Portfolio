@@ -2,8 +2,8 @@ import React from "react"
 import "./Projects.scss"
 
 // import images and logo
-import Portfolio from "../../images/portfolio.jpg"
-import Yummy from "../../images/yummy.jpg"
+import Portfolio from "../../images/portfolio.png"
+import Yummy from "../../images/yummy.png"
 
 const Projects = () => {
   return (

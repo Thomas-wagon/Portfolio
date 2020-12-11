@@ -11,7 +11,7 @@ import ToolsCard from "./ToolCard/ToolsCard"
 import ToolIcon from "./ToolCard/ToolIcon/ToolIcon"
 
 // import images and logo
-import Thomas from "../../images/thomas.jpg"
+import Thomas from "../../images/thomas.png"
 
 const About = () => {
   return (
