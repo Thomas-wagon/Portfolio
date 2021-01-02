@@ -13,6 +13,7 @@ import Contact from "../components/Contact/Contact"
 
 // import images
 import Oglake from "../images/og_lake.png"
+import Practices2 from "../components/Practices/Practices2"
 
 const IndexPage = () => {
   return (
@@ -35,6 +36,7 @@ const IndexPage = () => {
       <About />
       <Projects />
       <Practices />
+      <Practices2 />
       <Contact />
     </div>
   )

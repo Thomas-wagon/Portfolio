@@ -42,15 +42,7 @@ const Practices = () => {
       <PracticesCard2
         title={PracticesData[1].title}
         description={PracticesData[1].description}
-      >
-        <Modal
-          showModal={showModal}
-          setShowModal={setShowModal}
-          title={PracticesData[0].title}
-        >
-          <TictactoeGame showModal={showModal} />
-        </Modal>
-      </PracticesCard2>
+      ></PracticesCard2>
     </div>
   )
 }

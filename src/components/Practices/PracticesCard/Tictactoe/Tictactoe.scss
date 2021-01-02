@@ -88,6 +88,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      .reset {
+        position: unset;
+        right: unset;
+        bottom: unset;
+        margin-top: unset;
+      }
     }
   }
 }
