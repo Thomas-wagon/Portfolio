@@ -6,11 +6,9 @@ import "./PracticesCard.scss"
 // import components
 import Modal from "../../UI/Modal/Modal"
 import TictactoeGame from "../PracticesCard/Tictactoe/Tictactoe"
-import SlidingPuzzle from "../PracticesCard/SlidingPuzzle/SlidingPuzzle"
 
 //import image
 import Tictactoe from "../../../images/tictactoe.png"
-import SmileyPuzzle from "../../../images/smiley_puzzle.png"
 
 const PracticesCard = props => {
   //original state
@@ -34,8 +32,8 @@ const PracticesCard = props => {
           >
             <TictactoeGame showModal={showModal} />
           </Modal>
-          <button onClick={() => setShowModal(!showModal)}>Start !</button>
         </div>
+        <button onClick={() => setShowModal(!showModal)}>Start !</button>
       </div>
     </div>
   )
