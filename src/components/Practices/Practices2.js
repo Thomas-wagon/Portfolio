@@ -36,12 +36,12 @@ const Practices2 = props => {
       </div>
       {PracticesData.map(data => {
         return (
-          <PracticesCard2 title={data.title} description={data.description}>
-            <Modal
-              showModal={showModal}
-              setShowModal={setShowModal}
-              title={data.title}
-            >
+          <PracticesCard2
+            title={data.title}
+            image={data.image}
+            description={data.description}
+          >
+            <Modal title={props.title}>
               <TictactoeGame showModal={showModal} />
             </Modal>
           </PracticesCard2>
