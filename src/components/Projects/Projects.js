@@ -4,6 +4,7 @@ import "./Projects.scss"
 // import images and logo
 import Portfolio from "../../images/portfolio.png"
 import Yummy from "../../images/yummy.png"
+import Leohnart from "../../images/leohnart.png"
 
 const Projects = () => {
   return (
@@ -33,11 +34,11 @@ const Projects = () => {
           <h3>Yummy Palette - July 2020</h3>
           <p>
             Are you looking for a restaurant which offers only authentic exotic
-            dishes, faithful to the local cuisine ? you found this little place
-            that offers this typical dish from your locality and you want to
-            share this place with the world ? Yummy palette is a web application
-            where you’ll be able to find and recommend only those places that
-            offers authentic dishes.
+            dishes, faithful to the local cuisine ? you found this little
+            placegit branch that offers this typical dish from your locality and
+            you want to share this place with the world ? Yummy palette is a web
+            application where you’ll be able to find and recommend only those
+            places that offers authentic dishes.
           </p>
           <a target="blank_" href="https://youtu.be/_FQoOiv5nJM?t=1415">
             see demo here
@@ -56,6 +57,29 @@ const Projects = () => {
             href="https://github.com/jmh-xposures/Yummy_Palette"
           >
             view source
+          </a>
+        </div>
+      </div>
+      <div id="selector" className="card left">
+        <img className="photo" src={Leohnart} alt="Leonartmusic.com" />
+        <div className="text">
+          <h3>Leohnart - fevrier 2021</h3>
+          <p>
+            For my very first project after school, I had the chance to build
+            the new website of the artist LEOHNART!
+          </p>
+          <p>
+            We were looking for something easy to handle and update, offering
+            the artist the chance to introduce him-self, expose is work and play
+            his music to the world. This project's been really exciting and
+            instructive to work on, as I handled it entirely, from the design to
+            the development; and as we decided to build it using Worldpress.
+            This strategy would give to LEOHNART the ownership of his website
+            after my job's done, Worldpress being user-friendly enough when it
+            will be time for him to upload new albums or new tracks.
+          </p>
+          <a target="blank_" href="https://leohnartmusic.com/">
+            view site
           </a>
         </div>
       </div>
