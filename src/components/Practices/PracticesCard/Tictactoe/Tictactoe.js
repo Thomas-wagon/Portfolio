@@ -222,9 +222,7 @@ const Tictactoe = props => {
                 ? "It's a draw !"
                 : `${players[game.currentPlayer - 1].name} wins !!!`}{" "}
             </p>
-            <button className="reset" onClick={resetGame}>
-              New Game
-            </button>
+            <button onClick={resetGame}>New Game</button>
           </div>
         )}
       </div>

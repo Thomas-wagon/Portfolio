@@ -1,24 +1,13 @@
-import React, { useState } from "react"
+import React from "react"
 
 //import style
 import "./Practices.scss"
 
-//import data
-import PracticesData from "./PracticesData.json"
-
-// import components
-import Modal from "../../components/UI/Modal/Modal"
-import TictactoeGame from "../Practices/PracticesCard/Tictactoe/Tictactoe"
-
 //import image
 import ReactIcon from "../../images/react_no_bg.png"
 import PracticesCard from "./PracticesCard/PracticesCard"
-import PracticesCard2 from "./PracticesCard/PracticesCard2"
 
 const Practices = () => {
-  //original state
-  const [showModal, setShowModal] = useState(false)
-
   return (
     <div id="practices" className="practices">
       <h2>React Practices</h2>
@@ -36,13 +25,10 @@ const Practices = () => {
         </div>
       </div>
       <PracticesCard
-        title={PracticesData[0].title}
-        description={PracticesData[0].description}
+        title="Tic Tac Toe"
+        description="The player who succeeds in placing three of their marks in a
+            horizontal, vertical, or diagonal row is the winner"
       ></PracticesCard>
-      <PracticesCard2
-        title={PracticesData[1].title}
-        description={PracticesData[1].description}
-      ></PracticesCard2>
     </div>
   )
 }
