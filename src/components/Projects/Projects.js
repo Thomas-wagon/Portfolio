@@ -34,11 +34,11 @@ const Projects = () => {
           <h3>Yummy Palette - July 2020</h3>
           <p>
             Are you looking for a restaurant which offers only authentic exotic
-            dishes, faithful to the local cuisine ? you found this little
-            placegit branch that offers this typical dish from your locality and
-            you want to share this place with the world ? Yummy palette is a web
-            application where you’ll be able to find and recommend only those
-            places that offers authentic dishes.
+            dishes, faithful to the local cuisine ? you found this little place
+            that offers this typical dish from your locality and you want to
+            share this place with the world ? Yummy palette is a web application
+            where you’ll be able to find and recommend only those places that
+            offers authentic dishes.
           </p>
           <a target="blank_" href="https://youtu.be/_FQoOiv5nJM?t=1415">
             see demo here
