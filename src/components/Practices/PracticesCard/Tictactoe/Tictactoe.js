@@ -215,17 +215,17 @@ const Tictactoe = props => {
             <Case lacase={c} onClick={() => clickCase(c.position)} />
           ))}
         </div>
-        {game.winner !== null && (
-          <div className="result">
-            <p>
-              {game.winner === 0
-                ? "It's a draw !"
-                : `${players[game.currentPlayer - 1].name} wins !!!`}{" "}
-            </p>
-            <button onClick={resetGame}>New Game</button>
-          </div>
-        )}
       </div>
+      {game.winner !== null && (
+        <div className="result">
+          <p>
+            {game.winner === 0
+              ? "It's a draw !"
+              : `${players[game.currentPlayer - 1].name} wins !!!`}{" "}
+          </p>
+          <button onClick={resetGame}>New Game</button>
+        </div>
+      )}
     </div>
   )
 }
