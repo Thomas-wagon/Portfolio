@@ -23,19 +23,21 @@ const About = () => {
             <img className="photo" src={Thomas} alt="me" />
             <div className="text">
               <p>
-                After 7 years working as an industrial designer, I wanted to
+                After 7 years working as an industrial designer, I wanted to
                 renew myself and start learning web development by following the
-                full Stack Web Development training offered by LE WAGON
+                full Stack Web Development training offered by LE WAGON
                 MONTREAL.
               </p>
               <a target="blank_" href="https://www.lewagon.com/">
                 (www.lewagon.com)
               </a>
               <p>
-                Today, I'm looking forward to find a position as web developer
-                that allows me, ideally, to combine my new skills with those I
-                already mastered in 3D modeling and product design, to make the
-                most of my creativity.
+                Today, while I continue to improve my skills on technos such as
+                JavaScript (React), MySQL, Python or JAVA, thanks to the
+                position of Web integrator that I have held since January 2021,
+                I continue my learning journey working on personal projects, or
+                taking courses on platforms such as CodeCademy, because I aspire
+                to become a Web Developer eventually
               </p>
             </div>
           </div>
